@@ -7,3 +7,6 @@ export interface Joke {
   setup: string;
   delivery: string;
 }
+
+// Function to fetch jokes
+const getJoke = async (): Promise<Joke> => {
