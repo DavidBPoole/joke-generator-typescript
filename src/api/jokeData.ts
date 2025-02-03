@@ -11,3 +11,4 @@ export interface Joke {
 // Function to fetch jokes
 const getJoke = async (): Promise<Joke> => {
   const response = await axios.get(endpoint);
+  return response.data;
