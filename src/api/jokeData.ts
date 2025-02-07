@@ -12,3 +12,4 @@ export interface Joke {
 const getJoke = async (): Promise<Joke> => {
   const response = await axios.get(endpoint);
   return response.data;
+};
