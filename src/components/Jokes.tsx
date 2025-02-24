@@ -1,4 +1,4 @@
 import React from "react";
 
 interface JokesProps {
-  joke: { setup: string;
+  joke: { setup: string; punchline:
