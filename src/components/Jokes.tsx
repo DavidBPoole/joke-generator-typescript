@@ -5,4 +5,4 @@ interface JokesProps {
   btnText: string;
 }
 
-const Jokes: React.
+const Jokes: React.FC<JokesProps>
