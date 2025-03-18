@@ -6,3 +6,4 @@ interface JokesProps {
 }
 
 const Jokes: React.FC<JokesProps> = ({ joke, btnText }) => (
+  <div className=
