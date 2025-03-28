@@ -11,3 +11,5 @@ const Jokes: React.FC<JokesProps> = ({ joke, btnText }) => (
     <h1 className="text-secondary">{btnText !== "Get Punchline" ? joke.punchline : ""}</h1>
   </div>
 );
+
+export default Jokes;
